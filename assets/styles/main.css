@@ -16,6 +16,7 @@ html {
 }
 body {
   font-family: "Work Sans", sans-serif;
+  overflow-x: hidden;
 }
 .container {
   padding: 0 15px;
@@ -61,7 +62,14 @@ body {
     margin-top: -20px;
   }
 }
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
 header {
+  position: relative;
   padding: 20px;
 }
 header .container {
@@ -72,64 +80,55 @@ header .container {
 header .logo img {
   width: 60px;
 }
-header nav {
-  position: relative;
-}
-header nav:hover .icon span:nth-child(2) {
+header nav label:hover .icon span:nth-child(2) {
   width: 100%;
 }
 header nav .icon {
-  width: 30px;
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
+  width: 30px;
+  gap: 5px;
+  cursor: pointer;
 }
 header nav .icon span {
-  background-color: #333;
-  margin-bottom: 5px;
-  height: 2px;
-}
-header nav .icon span:first-child,
-header nav .icon span:last-child {
   width: 100%;
+  height: 2px;
+  background-color: #333;
 }
 header nav .icon span:nth-child(2) {
   width: 60%;
   transition: width 0.3s;
 }
-header nav ul {
-  position: absolute;
-  top: calc(100% + 15px);
+header nav input {
+  appearance: none;
+}
+header nav input:checked + .nav-links {
   right: 0;
-  min-width: 180px;
-  list-style-type: none;
-  background-color: var(--section-background);
-  display: none;
-  z-index: 1;
+  transition: 1s;
 }
-header nav:hover ul {
-  display: block;
-}
-header nav ul::before {
-  content: "";
+header nav .nav-links {
   position: absolute;
-  top: -20px;
-  right: 5px;
-  border: 10px solid transparent;
-  border-bottom-color: var(--section-background);
+  top: 75px;
+  min-width: 250px;
+  height: calc(100vh - 73px);
+  padding: 20px 30px;
+  right: -100%;
+  transition: 1s;
+  background-color: var(--secondary-color);
 }
-header nav ul li a {
+header nav .nav-links span {
   display: block;
-  padding: 15px;
-  text-decoration: none;
-  color: #333;
-  transition: 0.3s;
+  margin: 10px 0;
+  color: #67727e;
 }
-header nav ul li a:hover {
-  padding-left: 25px;
+header nav .nav-links ul {
+  margin-bottom: 20px;
 }
-header nav ul li:not(:last-child) a {
-  border-bottom: 1px solid #ddd;
+header nav .nav-links a {
+  display: block;
+  padding: 8px 0;
+  color: #ebeced;
 }
 
 section.hero {

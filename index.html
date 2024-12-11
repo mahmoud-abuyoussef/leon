@@ -12,25 +12,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
   </head>
-
   <body>
     <header class="header">
       <div class="container">
         <div class="logo">
-          <img src="assets/images/logo.webp" alt="site logo" class="site-logo" />
+          <a href="index.html"><img src="assets/images/logo.webp" alt="site logo" class="site-logo" /></a>
         </div>
         <nav>
-          <span class="icon">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
-          <ul>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+          <label for="toggle">
+            <span class="icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </label>
+          <input type="checkbox" id="toggle" />
+          <div class="nav-links">
+            <span>Menu</span>
+            <ul>
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#about">About</a></li>
+            </ul>
+            <span>Get in Touch</span>
+            <a href="#contact">Contact Me</a>
+            <span>Get Social</span>
+            <ul>
+              <li><a href="#">Dribble</a></li>
+              <li><a href="#">Twitter</a></li>
+            </ul>
+          </div>
         </nav>
       </div>
     </header>

@@ -376,10 +376,8 @@ section.contact .contact-info .social a i {
 footer {
   padding: 20px;
   text-align: center;
-  background-color: var(--secondary-color);
-}
-footer p {
   color: #fff;
+  background-color: var(--secondary-color);
 }
 footer p .site-name {
   font-weight: bold;

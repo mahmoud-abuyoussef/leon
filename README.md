@@ -21,6 +21,6 @@
 - ### Deployment
   - ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)
 
-**Design From Graph berry**
+**Design by Graph berry**
 
 ![Leon Design](https://github.com/mahmoud-abuyoussef/Leon/blob/main/design/leon-psd.jpg)

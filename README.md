@@ -1,23 +1,26 @@
 # Leon
 
-## [Leon Live Demo](https://mahmoud-abuyoussef.github.io/Leon/)
+## [Demo](https://mahmoud-abuyoussef.github.io/Leon/)
 
-## Language
+## Tech Stack
 
-- ![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)
-- ![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)
+- ### Languages
 
-## 🛠️ Tools
+  - ![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)
+  - ![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)
 
-- ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff)
-- ![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)
-- ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)
+- ### Design
 
-## Features
+  - ![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white)
 
-- Accessibility
-- Responsive Web Design
+- #### 🔖 Version Control System
 
-## Design Image
+  - ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff)
+  - ![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)
 
-![Leon Design Image](https://github.com/mahmoud-abuyoussef/Leon/blob/main/leon-psd.jpg)
+- ### Deployment
+  - ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)
+
+**Design From Graph berry**
+
+![Leon Design](https://github.com/mahmoud-abuyoussef/Leon/blob/main/design/leon-psd.jpg)

@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 :root {
+  --white: #ffffff;
   --main-color: #10cab7;
   --secondary-color: #2c4755;
   --section-padding: 60px;
@@ -376,7 +377,7 @@ section.contact .contact-info .social a i {
 footer {
   padding: 20px;
   text-align: center;
-  color: #fff;
+  color: var(--white);
   background-color: var(--secondary-color);
 }
 footer p .site-name {

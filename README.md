@@ -1,7 +1,5 @@
 # Leon
 
-## [Demo](https://mahmoud-abuyoussef.github.io/Leon/)
-
 ## Tech Stack
 
 - ### Languages
